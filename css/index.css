@@ -1,0 +1,92 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h2 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.logo {
+	position: absolute;
+	z-index: 2;
+}
+
+.backgroundImage {
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.navigation{
+	padding: 20px;
+
+}
+.navigation .link{
+margin-right: 10px;
+
+}
+
+
+.link {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+.link:hover, .link--active {
+	color: red;
+}
+
+.navigation .link--tel{
+float: right;
+margin: 0;
+}
+
+.navigation, .main, .footer {
+	z-index: 2;
+	position: relative;
+}
+
+
+.footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+
+.main{
+	margin: 200px auto 0 auto;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	border: 1px solid #EEE;
+	width: 500px;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.75);
+}
+.heading{
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 700;
+}
